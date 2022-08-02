@@ -639,6 +639,8 @@ address {
     border: none;
     padding: 6px 22px;
     transition: color var(--transition-duration-and-func);
+    transition: background-color var(--transition-duration-and-func);
+    transition: box-shadow var(--transition-duration-and-func);
 }
 
 /*.modal-button-filter:active {
@@ -650,9 +652,8 @@ address {
 .modal-button-filter:hover,
 .modal-button-filter:focus {
     color: #FFFFFF;
-    background: var(--accent-color);  
-    transition: background-color var(--transition-duration-and-func), 
-                box-shadow var(--transition-duration-and-func);
+    background: var(--accent-color); 
+    transition: background-color var(--transition-duration-and-func);
 }
 /*-- /Button filter --*/
 
